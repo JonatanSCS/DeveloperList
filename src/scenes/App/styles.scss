@@ -1,0 +1,34 @@
+@import 'styles/variables.scss';
+
+.App {
+  text-align: center;
+  nav {
+    background: $dark-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+    .SearchForm {
+      * {
+        margin: 0 .5rem;
+        border-radius: 100px;
+        padding: .5rem 1rem;
+        border: none;
+        outline: none;
+      }
+      button {
+        background: $light-color;
+        color: white;
+        cursor: pointer;
+        &:disabled {
+          opacity: .5;
+          cursor: auto;
+        }
+      }
+    }
+  }
+  .Container {
+    display: flex;
+    justify-content: center;
+  }
+}

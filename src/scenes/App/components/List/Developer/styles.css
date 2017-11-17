@@ -1,0 +1,17 @@
+.Developer {
+  display: flex;
+  align-items: center; }
+  .Developer button {
+    background-color: #E91E63;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 0 1rem;
+    color: white;
+    height: 2rem;
+    cursor: pointer;
+    opacity: .5; }
+    .Developer button:hover {
+      opacity: 1; }
+  .Developer .Edit {
+    background-color: #00796B; }

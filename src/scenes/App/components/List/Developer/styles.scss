@@ -1,0 +1,23 @@
+@import 'styles/variables.scss';
+
+.Developer {
+  display: flex;
+  align-items: center;
+  button {
+    background-color: $alpha-color;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    padding: 0 1rem;
+    color: white;
+    height: 2rem;
+    cursor: pointer;
+    opacity: .5;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .Edit {
+    background-color: $dark-color;
+  }
+}

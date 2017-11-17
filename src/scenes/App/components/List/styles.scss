@@ -1,0 +1,31 @@
+@import 'styles/variables.scss';
+
+.Table {
+  padding: 2rem;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  .List {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid $dark-color;
+    box-shadow: 1px 1px 5px #888888;
+    div {
+      display: flex;
+      justify-content: center;
+      p {
+        width: 20%;
+      }
+    }
+    .DeveloperHeader {
+      background-color: $base-color;
+      p {
+        color: white;
+      }
+    }
+  }
+}
